@@ -1,0 +1,47 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 500px;
+  background-color: black;
+}
+.Miku:hover {
+    transform: translateX(90px);
+
+}
+
+.Miku {
+    text-align: center
+}
+
+.Miku img {
+  width:70px;
+} 
+footer img {
+  width: 360px;
+  height: 360px;
+  border-radius: 280px;
+}
+
+footer {
+  display: flex;
+  justify-content: center
+}
+.Miku-2 {
+  text-align: center;
+}
+
+
+@keyframes Miku {
+  from {
+    transform: translateY(7px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.Miku-2 {
+  animation: Miku;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
